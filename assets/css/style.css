@@ -1,3 +1,58 @@
 body {
     background-image: url(../images/Background.jpg)
 }
+
+.body {
+    background-color: #212121;
+    color: white;
+    padding: 20px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.head {
+    padding: 10px;
+    background-color: #ff9966;
+    color: white;
+    margin-top: 5px;
+    text-align: center;
+}
+
+img {
+    margin-bottom: 5px;
+    height: 150px;
+    width: 170px;
+    border-color: #212121;
+    border-width: 5px;
+}
+
+.tags {
+    background-color: #ff9966;
+    color: white;
+    text-align: center;
+    margin-right: 5px;
+}
+
+.middle {
+    background-color: #212121;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin-right: 5px;
+    font-size: 40px;
+}
+
+.stats {
+    background-color: #212121;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.result {
+    background-color: #212121;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
