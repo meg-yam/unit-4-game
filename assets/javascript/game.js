@@ -6,13 +6,13 @@ var counter = 0;
 var numberOptions = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
 var increment = numberOptions[Math.round(Math.random())];
 
-for (var i = 0; i < numberOptions.length; i++) {
-    var imageCrystal = $("<img>");
-    imageCrystal.addClass("crystal-image");
-    imageCrystal.attr("src", "../images/Blue.jpeg");
-    imageCrystal.attr("data-crystalvalue", numberOptions[i]);
-    $("#crystals").append(imageCrystal);
-}
+// for (var i = 0; i < numberOptions.length; i++) {
+//     var imageCrystal = $("<img>");
+//     imageCrystal.addClass("crystal-image");
+//     imageCrystal.attr("src", "../images/Blue.jpeg");
+//     imageCrystal.attr("data-crystalvalue", numberOptions[i]);
+//     $("#crystals").append(imageCrystal);
+// }
 
 
 $(".image").on("click", function() {
